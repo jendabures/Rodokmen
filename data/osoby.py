@@ -18,6 +18,10 @@
 # Neznámý otec nemanželského dítěte: dict(n="otec neuveden", st="unk", f=[], note="…")
 
 P = {
+    1: dict(n="Jan Bureš", y="* 1991", st="fam", sex="M", f=["* 1991 Hradec Králové"], r=[],
+            note="Žijící – údaje jen základní."),
+    2: dict(n="Martin Bureš", y="", st="fam", f=[], r=[], note="Žijící – údaje jen základní."),
+    3: dict(n="Renata Drobníková", y="", st="fam", f=[], r=[], note="Žijící – údaje jen základní. Provdaná Burešová."),
 }
 
 # Rody = osm větví podle pradědečků a prababiček (čísla 8–15). Doplňte, jakmile je znáte:
@@ -28,6 +32,9 @@ LINES = {
 # Příbuzní mimo přímou linii (sourozenci, strýcové…): k = číslo předka, ke kterému patří.
 # dict(k=16, n="Josef Novák (1865–1920)", t="Bratr Jana. Kovář v …", r=["klic_zapisu"])
 SIDE = [
+    dict(k=1, n="Kateřina Burešová", t="Starší sestra Jana. Žijící.", r=[]),
+    dict(k=1, n="Vojtěch Bureš", t="Mladší bratr Jana. Žijící.", r=[]),
+    dict(k=1, n="Martin Bureš", t="Mladší bratr Jana. Žijící.", r=[]),
 ]
 
 # Rozpory a otevřené otázky (na web do „Co hledáme“) jako dvojice (otázka, odpověď). Odpověď začněte

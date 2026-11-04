@@ -4,8 +4,8 @@ Tento soubor je vstupní bod. Po každém restartu (nová konverzace, zkrácený
 pak konec `research_log.md` a sekci „Rozpracováno“.
 
 ## Pro koho
-- Výchozí osoba: (doplnit – jméno, rok a místo narození)
-- Kdo s Claudem pracuje a jak chce komunikovat: (doplnit)
+- Výchozí osoba: Jan Bureš, * 1991 Hradec Králové (žijící – na webu jen jméno a rok).
+- Kdo s Claudem pracuje: Jan sám. Česky, stručně, bez žargonu. Pracuje se v cloudové relaci – vše ukládat do gitu a odesílat.
 
 ## Kde co je
 | Soubor | Obsah |
@@ -34,4 +34,4 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 6. Po změně dat spustím `python3 -I tools/kontrola.py`.
 
 ## Rozpracováno (aktualizovat průběžně)
-- (zatím nic)
+- Fáze 1 (rozhovor s rodinou): známe rodiče (Martin Bureš, Renata Drobníková). Další: prarodiče z obou stran.
